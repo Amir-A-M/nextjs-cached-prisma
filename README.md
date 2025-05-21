@@ -13,8 +13,9 @@ relatedTemplates:
   - postgres-kysely
   - postgres-sveltekit
 ---
+# trying to use cached-prisma library in a nextjs project
 
-# My Guide
+# My Command Guide
 ```
 pnpm create next-app --example https://github.com/<this repo>
 cp .env.example .env
