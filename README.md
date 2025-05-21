@@ -16,8 +16,8 @@ relatedTemplates:
 # trying to use cached-prisma library in a nextjs project
 
 # My Command Guide
-```
-pnpm create next-app --example https://github.com/<this repo>
+```bash
+pnpm create next-app --example https://github.com/Amir-A-M/nextjs-cached-prisma
 cp .env.example .env
 
 # set up a DB in console.prisma.io

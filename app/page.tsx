@@ -42,7 +42,7 @@ export default function Home() {
 
       <div className="sm:absolute sm:bottom-0 w-full px-20 py-10 flex justify-between">
         <Link
-          href="https://github.com/"
+          href="https://github.com/Amir-A-M/nextjs-cached-prisma"
           className="flex items-center space-x-2"
         >
           <Image
