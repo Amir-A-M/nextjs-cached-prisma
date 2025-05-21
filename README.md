@@ -26,6 +26,9 @@ cp .env.example .env
 npx prisma migrate dev
 
 pnpm dev
+
+# seed database with
+npx prisma db seed
 ```
 
 # Vercel Postgres + Prisma Next.js Starter
