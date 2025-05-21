@@ -11,7 +11,7 @@ export default function RefreshButton() {
     <button
       className={`${
         isPending ? 'cursor-not-allowed text-gray-400' : ''
-      } text-sm text-gray-500 hover:text-gray-900`}
+      } text-sm text-gray-700 hover:text-gray-950 border px-3 py-2 rounded-xl border-amber-600`}
       disabled={isPending}
       onClick={() => {
         startTransition(() => {

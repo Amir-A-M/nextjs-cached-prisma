@@ -14,6 +14,19 @@ relatedTemplates:
   - postgres-sveltekit
 ---
 
+# My Guide
+```
+pnpm create next-app --example https://github.com/<this repo>
+cp .env.example .env
+
+# set up a DB in console.prisma.io
+# copy DATABASE_URL env
+
+npx prisma migrate dev
+
+pnpm dev
+```
+
 # Vercel Postgres + Prisma Next.js Starter
 
 Simple Next.js template that uses [Vercel Postgres](https://vercel.com/postgres) as the database and [Prisma](https://prisma.io/) as the ORM.

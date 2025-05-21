@@ -14,7 +14,7 @@ export default async function Table() {
         <div className="space-y-1">
           <h2 className="text-xl font-semibold">Recent Users</h2>
           <p className="text-sm text-gray-500">
-            Fetched {users.length} users in {duration}ms
+            Fetched {users.length} users in <mark className="font-medium"> {duration}ms </mark>
           </p>
         </div>
         <RefreshButton />
